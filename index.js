@@ -21,13 +21,14 @@ function destructivelyRemoveFirstKitten() {
 
 function appendKitten(name) {
   var newArray = [...kittens,name]
-  return newArray;
+  return newArray
 }
 
 function prependKitten(name) {
   var newArray = [name,...kittens]
-  return newArray;
+  return newArray
 }
 function removeLastKitten() {
-  var newArray = 
+  var newArray = splice.kittens(0,kittens.length-1)
+  return newArray
 }
